@@ -2,7 +2,7 @@
 
 Stock market & portfolio implementation in pure Python.
 
-## Desctiption
+## Description
 
 The following project is capable of generating random historical stock price data for a given set of tickers in a Market. Said data can be used to construct stock portfolios from which profit and annualized revenue statistics can be obtained in a given date span. 
 
