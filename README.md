@@ -71,7 +71,6 @@ Portfolio implementation is constructed under the following assumptions.
 * Correct input is given on function call 
 * Implementation and structure are to be prioritized over data generation
     * Stock prices are generated randomly (APIs / DB are forbidden)
-    * Stock prices always follow the "Kangaroo Market" pattern (True)
 
 
 ## Comments
