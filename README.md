@@ -6,13 +6,22 @@ Stock market & portfolio implementation in pure Python.
 
 The following project is capable of generating random historical stock price data for a given set of tickers in a Market. Said data can be used to construct stock portfolios from which profit and annualized revenue statistics can be obtained in a given date span. 
 
+```python
+NASDAQ = Market(['FB', 'AMZN', 'AAPL', 'NFLX', 'GOOGL'])
+internationalPortfolio = Portfolio(['AMZN', 'AAPL'], NASDAQ)
+internationalQ1 = internationalPortfolio.profit('2020-01-01', '2020-04-01')
+
+print('International Portfolio Profit for Q1 2020 : ', internationalQ1)
+
+>>> International Portfolio Profit for Q1 2020 :  4934
+```
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 There are no prerequisites for this implementation.
 
-```shell
+```python
 python main.py
 ```
 
