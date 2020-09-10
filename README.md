@@ -13,7 +13,7 @@ internationalQ1 = internationalPortfolio.profit('2020-01-01', '2020-04-01')
 
 print('International Portfolio Profit for Q1 2020 : ', internationalQ1)
 
->>> International Portfolio Profit for Q1 2020 :  4934
+>>> International Portfolio Profit for Q1 2020 :  $4934
 ```
 
 ## Getting Started
