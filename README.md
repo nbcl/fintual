@@ -2,12 +2,12 @@
 
 Stock market & portfolio implementation in pure Python.
 
-### Desctiption
+## Desctiption
 
 The following project is capable of generating random historical stock price data for a given set of tickers in a Market. Said data can be used to construct stock portfolios from which profit and annualized revenue statistics can be obtained in a given date span. 
 
 
-### Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 There are no prerequisites for this implementation.
@@ -17,7 +17,7 @@ python main.py
 ```
 
 
-### Configuration
+## Configuration
 
 Further configuration and assesment can be achieved by trying custom testcases in the main module. The following section is a run-down on how to construct two different financial markets and portfolios.
 
@@ -63,7 +63,7 @@ nationalAnnualQ1)
 >>> National Portfolio Annualized Profit for Q1 2020 :  0.459
 ```
 
-### Assumptions
+## Assumptions
 
 Portfolio implementation is constructed under the following assumptions.
 
@@ -72,6 +72,11 @@ Portfolio implementation is constructed under the following assumptions.
 * Implementation and structure are to be prioritized over data generation
     * Stock prices are generated randomly (APIs / DB are forbidden)
     * Stock prices always follow the "Kangaroo Market" pattern (True)
+
+
+## Comments
+
+Note that historical stock data is randomly generated thus +1000% returns can ocurr.
 
 
 ### License
