@@ -27,8 +27,7 @@ from stocks import Stock
 class Market():
     """Fintual -- Market Class
 
-    Generates and stores random, kangaroo market-based stock prices for a
-    given ticker
+    Generates and stores random stock prices for a given ticker
 
     Attributes:
         dict stocks : Historical price data {date : price}
