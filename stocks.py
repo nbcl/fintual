@@ -29,8 +29,7 @@ from parameters import HISTORICAL_DAYS, DAY_1, MAX_STOCK_PRICE
 class Stock():
     """Fintual -- Stock Class
 
-    Generates and stores random, kangaroo market-based stock prices for a
-    given ticker
+    Generates and stores random stock prices for a given ticker
 
     Attributes:
         str ticker : Stock's symbol
