@@ -78,6 +78,6 @@ Portfolio implementation is constructed under the following assumptions.
 Note that historical stock data is randomly generated thus +1000% returns can ocurr.
 
 
-### License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
